@@ -13,8 +13,13 @@ https://cloud.ibm.com/docs/tutorials/multi-region-k8s-cis.html#resilient-and-sec
 
 
 ## Couple words on the enterprise grade private docker image repo
-Some steps to use private registry  - https://console.bluemix.net/docs/services/Registry/registry_setup_cli_namespace.html#registry_setup_cli_namespace
-https://console.bluemix.net/docs/services/Registry/registry_images_.html#registry_images_
+Some steps to use private registry  - 
+
+- https://console.bluemix.net/docs/services/Registry/registry_setup_cli_namespace.html#registry_setup_cli_namespace
+- https://console.bluemix.net/docs/services/Registry/registry_images_.html#registry_images_
+- enforcing trusted images: https://console.bluemix.net/docs/services/Registry/registry_security_enforce.html#security_enforce
+- Vulnerability advisor https://console.bluemix.net/docs/services/va/va_index.html#va_index
+- https://console.bluemix.net/docs/services/Registry/registry_trusted_content.html#registry_trustedcontent
 
 ## scan images and verify signatures
 image trust https://console.bluemix.net/docs/services/Registry/registry_trusted_content.html#registry_trustedcontent
