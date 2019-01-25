@@ -17,6 +17,7 @@ Some steps to use private registry  -
 
 - https://console.bluemix.net/docs/services/Registry/registry_setup_cli_namespace.html#registry_setup_cli_namespace
 - https://console.bluemix.net/docs/services/Registry/registry_images_.html#registry_images_
+- signing images: https://console.bluemix.net/docs/services/Registry/registry_trusted_content.html#registry_trustedcontent
 - enforcing trusted images: https://console.bluemix.net/docs/services/Registry/registry_security_enforce.html#security_enforce
 - Vulnerability advisor https://console.bluemix.net/docs/services/va/va_index.html#va_index
 - https://console.bluemix.net/docs/services/Registry/registry_trusted_content.html#registry_trustedcontent
