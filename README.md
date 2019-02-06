@@ -26,11 +26,11 @@ Some steps to use private registry  -
 image trust https://console.bluemix.net/docs/services/Registry/registry_trusted_content.html#registry_trustedcontent
 
 ## locking down Kubernetes with proper RBACs 
-https://cloud.ibm.com/docs/tutorials/users-teams-applications.html#assign-roles-within-the-environment
-https://kubernetes.io/docs/reference/access-authn-authz/rbac/
+- https://cloud.ibm.com/docs/tutorials/users-teams-applications.html#assign-roles-within-the-environment
+- https://kubernetes.io/docs/reference/access-authn-authz/rbac/
 
 ## discussing resilient multi-region Kubernetes cluster
 the simple example of deploying multi-region K8s cluster on IBM Cloud: 
-https://console.bluemix.net/docs/tutorials/multi-region-k8s-cis.html?pos=2#resilient-and-secure-multi-region-kubernetes-clusters-with-cloud-internet-services
-https://www.ibm.com/blogs/bluemix/2018/06/multi-region-kubernetes-applications-ibm-cloud-internet-services/
-https://github.ibm.com/Bluemix/multi-region-tips-and-samples/blob/master/cloud-functions/LOAD_BALANCER_AND_FAIL_OVER.md
+- https://console.bluemix.net/docs/tutorials/multi-region-k8s-cis.html?pos=2#resilient-and-secure-multi-region-kubernetes-clusters-with-cloud-internet-services
+- https://www.ibm.com/blogs/bluemix/2018/06/multi-region-kubernetes-applications-ibm-cloud-internet-services/
+- https://github.ibm.com/Bluemix/multi-region-tips-and-samples/blob/master/cloud-functions/LOAD_BALANCER_AND_FAIL_OVER.md
