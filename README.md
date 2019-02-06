@@ -34,5 +34,17 @@ the simple example of deploying multi-region K8s cluster on IBM Cloud:
 - https://console.bluemix.net/docs/tutorials/multi-region-k8s-cis.html?pos=2#resilient-and-secure-multi-region-kubernetes-clusters-with-cloud-internet-services
 - https://www.ibm.com/blogs/bluemix/2018/06/multi-region-kubernetes-applications-ibm-cloud-internet-services/
 
+## previous meetups on containers
+in 2019 we had these webinars on containers:
+- [2019.02.06 Best Practices for Kubernetes](https://www.crowdcast.io/e/best-practices-for-2/register)
+in 2018 we ran those webinars on containers:
+- [2018.11.13 How to write a "Hello World" in Container technology using Docker, Kubernetes and Istio](https://www.crowdcast.io/e/how-to-write-a-hello/register)
+- [2018.11.06 Securing Containers with Istio - cohosted with CodeFresh](https://www.crowdcast.io/e/online-meetup-securing/register)
+- [2018.10.23 Container Security with NeuVector and IBM Cloud](https://www.crowdcast.io/e/container-security-with/register)
+- [2018.07.10 Introduction to Istio](https://www.crowdcast.io/e/introduction-to-istio/register)
+- [2018.07.03 Introduction to Kubernetes](https://www.crowdcast.io/e/introduction-to-3/register)
+- [2018.06.26 Introduction to Docker](https://www.crowdcast.io/e/introduction-to-docker/register)
+- [2018.06.19 Introduction to Containers](https://www.crowdcast.io/e/introduction-to-2/register)
+
 ## subscribe for more
 If you want to get updates on this repository please star it. Follow me on Twitter [@blumareks](https://twitter.com/blumareks). Thank you for your interest in this repo.
