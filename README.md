@@ -34,6 +34,10 @@ the simple example of deploying multi-region K8s cluster on IBM Cloud:
 - https://console.bluemix.net/docs/tutorials/multi-region-k8s-cis.html?pos=2#resilient-and-secure-multi-region-kubernetes-clusters-with-cloud-internet-services
 - https://www.ibm.com/blogs/bluemix/2018/06/multi-region-kubernetes-applications-ibm-cloud-internet-services/
 
+## IBM Cloud Private guide
+- Please find the architecture details on IBM Cloud Private -  https://github.com/ibm-cloud-architecture/refarch-privatecloud/blob/master/README.md
+- terraform process to install the ICP: https://github.com/ibm-cloud-architecture/terraform-module-icp-deploy/blob/master/README.md
+
 ## previous meetups on containers
 in 2019 we had these webinars on containers:
 - [2019.02.06 Best Practices for Kubernetes](https://www.crowdcast.io/e/best-practices-for-2/register)
