@@ -2,7 +2,7 @@
 The workshop on containers in Silicon Valley. If you like it, please star it!
 
 This page is here:
-[ibm.biz/sv-containers-2019](ibm.biz/sv-containers-2019)
+[ibm.biz/sv-containers-2019](http://ibm.biz/sv-containers-2019)
 
 ## Start with the lite account
 
