@@ -33,4 +33,6 @@ image trust https://console.bluemix.net/docs/services/Registry/registry_trusted_
 the simple example of deploying multi-region K8s cluster on IBM Cloud: 
 - https://console.bluemix.net/docs/tutorials/multi-region-k8s-cis.html?pos=2#resilient-and-secure-multi-region-kubernetes-clusters-with-cloud-internet-services
 - https://www.ibm.com/blogs/bluemix/2018/06/multi-region-kubernetes-applications-ibm-cloud-internet-services/
-- https://github.ibm.com/Bluemix/multi-region-tips-and-samples/blob/master/cloud-functions/LOAD_BALANCER_AND_FAIL_OVER.md
+
+## subscribe for more
+If you want to get updates on this repository please star it. Follow me on Twitter [@blumareks](https://twitter.com/blumareks). Thank you for your interest in this repo.
