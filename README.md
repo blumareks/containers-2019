@@ -37,6 +37,7 @@ the simple example of deploying multi-region K8s cluster on IBM Cloud:
 ## previous meetups on containers
 in 2019 we had these webinars on containers:
 - [2019.02.06 Best Practices for Kubernetes](https://www.crowdcast.io/e/best-practices-for-2/register)
+
 in 2018 we ran those webinars on containers:
 - [2018.11.13 How to write a "Hello World" in Container technology using Docker, Kubernetes and Istio](https://www.crowdcast.io/e/how-to-write-a-hello/register)
 - [2018.11.06 Securing Containers with Istio - cohosted with CodeFresh](https://www.crowdcast.io/e/online-meetup-securing/register)
