@@ -40,6 +40,7 @@ the simple example of deploying multi-region K8s cluster on IBM Cloud:
 
 ## previous meetups on containers
 in 2019 we had these webinars on containers:
+- [2019.02.06 Docker, Kubernetes, Istio and Knative](https://www.crowdcast.io/e/docker-kubernetes-istio)
 - [2019.02.06 Best Practices for Kubernetes](https://www.crowdcast.io/e/best-practices-for-2/register)
 
 in 2018 we ran those webinars on containers:
