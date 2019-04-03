@@ -6,7 +6,7 @@ This page is here:
 
 ## Start with the lite account
 
-Sign up for the [IBM Cloud lite account: cloud.ibm.com](http://ibm.biz/k8s-20190206)
+Sign up for the [IBM Cloud lite account: cloud.ibm.com](http://ibm.biz/containers-201904)
 
 ## Creating the Kubernetes cluster
 https://cloud.ibm.com/docs/tutorials/multi-region-k8s-cis.html#resilient-and-secure-multi-region-kubernetes-clusters-with-cloud-internet-services
