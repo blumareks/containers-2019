@@ -34,6 +34,11 @@ the simple example of deploying multi-region K8s cluster on IBM Cloud:
 - https://console.bluemix.net/docs/tutorials/multi-region-k8s-cis.html?pos=2#resilient-and-secure-multi-region-kubernetes-clusters-with-cloud-internet-services
 - https://www.ibm.com/blogs/bluemix/2018/06/multi-region-kubernetes-applications-ibm-cloud-internet-services/
 
+## Knative
+Checkout the docs: https://www.knative.dev/docs/
+And clone the following example on IBM Cloud: ```git clone https://github.com/IBM-Cloud/knative-node-deploy```
+- some docs: https://www.knative.dev/docs/
+
 ## IBM Cloud Private guide
 - Please find the architecture details on IBM Cloud Private -  https://github.com/ibm-cloud-architecture/refarch-privatecloud/blob/master/README.md
 - terraform process to install the ICP: https://github.com/ibm-cloud-architecture/terraform-module-icp-deploy/blob/master/README.md
