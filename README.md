@@ -6,9 +6,85 @@ This page is here:
 
 ## Start with the lite account
 
-Sign up for the [IBM Cloud lite account: cloud.ibm.com](http://ibm.biz/containers-201904)
+Sign up for the [IBM Cloud lite account: cloud.ibm.com](https://ibm.biz/Bdzm8w)
 
-## Creating the Kubernetes cluster
+## Kubernetes basics - CLI
+
+In order to work with Kubernetes in the command line you need to install the following:
+- curl - for downloading tools
+- git - for downloading the git repo
+- ibm cloud cli - for interacting with ibm cloud
+- kubectl - for interacting with kubernetes
+
+On Ubuntu Linux run this command: `sudo apt install curl git` ,
+on Mac, since `curl` comes with the system, you can run just this: `brew install git`
+
+**Now you are ready to install IBM Cloud CLI**
+
+On Linux: `curl -fsSL https://clis.ng.bluemix.net/install/linux | sh` ,
+on Mac: `curl -fsSL https://clis.ng.bluemix.net/install/osx | sh`
+
+Also you need to install the Container plugins for IBM Cloud:
+```shell
+ibmcloud plugin install -r "IBM Cloud" container-service
+ibmcloud plugin install -r "IBM Cloud" container-registry
+```
+
+**Finally install Kubectl**
+
+On Linux:
+
+```
+curl --progress-bar -LO https://storage.googleapis.com/kubernetes-release/release/$(curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt)/bin/linux/amd64/kubectl
+sudo mv kubectl /usr/local/bin
+sudo chmod +x /usr/local/bin/kubectl
+```
+
+And on Mac:
+
+```
+curl --progress-bar -LO https://storage.googleapis.com/kubernetes-release/release/$(curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt)/bin/darwin/amd64/kubectl
+sudo mv kubectl /usr/local/bin
+sudo chmod +x /usr/local/bin/kubectl
+```
+
+## Steps to access the Kubernetes cluster
+
+1. `ibmcloud login` you might want to use some parameters when login
+2. Set an environment variable for your cluster name: `export MYCLUSTER=<your_cluster_name>`
+3. Download the configuration file and certificates for your cluster using the cluster-config command.
+
+```
+ibmcloud ks cluster-config $MYCLUSTER
+```
+
+4. and then export the resulting env (the example from my setup below)
+```
+export KUBECONFIG=/Users/your-user/.bluemix/plugins/container-service/clusters/name-of-your-cluster/kube-config-some-details-name-of-your-cluster.yml
+```
+
+Checking the access to your cluster: `kubectl get nodes`
+
+## first steps
+
+Get basic information about your cluster and its worker nodes. This information can help you manage your cluster and troubleshoot issues.
+
+1. View details of your cluster. `ibmcloud ks cluster-get $MYCLUSTER`
+2. Verify the worker nodes in the cluster. `ibmcloud ks workers $MYCLUSTER`
+and check one of the worker nodes: `ibmcloud ks worker-get <worker_ID>`
+
+3. Validate access to your cluster.
+a. View nodes in the cluster. `kubectl get node`
+
+b. View services, deployments, and pods.
+
+`kubectl get svc,deploy,po --all-namespaces`
+
+## the kube-101 lab
+Now you are ready to access Kubernetes 101 workshop - see the link here: https://ibm.gitlab.io/workshop/kube101/
+
+
+# Creating the Kubernetes cluster
 https://cloud.ibm.com/docs/tutorials/multi-region-k8s-cis.html#resilient-and-secure-multi-region-kubernetes-clusters-with-cloud-internet-services
 
 
